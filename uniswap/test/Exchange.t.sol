@@ -53,7 +53,6 @@ contract ExchangeTest is Test {
         assertEq(tokenAmount, 180);
 
         tokenAmount = exchange.getTokenAmount(1000);
-        console.log(tokenAmount);
         assertEq(tokenAmount, 994);
     }
 

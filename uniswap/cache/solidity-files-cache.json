@@ -968,8 +968,8 @@
       }
     },
     "test/Exchange.t.sol": {
-      "lastModificationDate": 1674911772161,
-      "contentHash": "102675901d2b172dbf2d5b55d9e2cb74",
+      "lastModificationDate": 1674914823690,
+      "contentHash": "0fd5242d71615024618d9a28286a95ff",
       "sourceName": "test/Exchange.t.sol",
       "solcConfig": {
         "settings": {
@@ -1029,9 +1029,72 @@
         }
       }
     },
+    "test/Factory.t.sol": {
+      "lastModificationDate": 1674914912688,
+      "contentHash": "110ebb29f4411e7334d7c072f82829e0",
+      "sourceName": "test/Factory.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "src/Exchange.sol",
+        "src/Factory.sol",
+        "src/Token.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "FactoryTest": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Factory.t.sol/FactoryTest.json"
+        }
+      }
+    },
     "test/Token.t.sol": {
-      "lastModificationDate": 1674910457549,
-      "contentHash": "4fa4fcb8752948b524ef9c4e0e90d9ad",
+      "lastModificationDate": 1674914682821,
+      "contentHash": "3c4ffa5b22c1b580c35320b98d7fe856",
       "sourceName": "test/Token.t.sol",
       "solcConfig": {
         "settings": {
@@ -1085,8 +1148,8 @@
       ],
       "versionRequirement": "^0.8.0",
       "artifacts": {
-        "TokeneTest": {
-          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Token.t.sol/TokeneTest.json"
+        "TokenTest": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Token.t.sol/TokenTest.json"
         }
       }
     }

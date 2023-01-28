@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "forge-std/Test.sol";
 import "../src/Token.sol";
 
-contract TokeneTest is Test {
+contract TokenTest is Test {
     Token public token;
 
     string public tokenName = "Token";
