@@ -968,8 +968,8 @@
       }
     },
     "test/Exchange.t.sol": {
-      "lastModificationDate": 1674914823690,
-      "contentHash": "0fd5242d71615024618d9a28286a95ff",
+      "lastModificationDate": 1674915625884,
+      "contentHash": "f3f647b29ced063b679a352e1b4b8aa9",
       "sourceName": "test/Exchange.t.sol",
       "solcConfig": {
         "settings": {

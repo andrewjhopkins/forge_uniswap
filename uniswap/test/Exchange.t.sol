@@ -27,13 +27,26 @@ contract ExchangeTest is Test {
         new Exchange(address(0));
     }
 
-    function testAddLiquidity() public {
+    function testAddLiquidityWithNoReserves() public {
         uint256 tokenAmount = 200;
         token.approve(address(exchange), tokenAmount);
-        exchange.addLiquidity(tokenAmount);
+        uint256 lpTokensRecieved = exchange.addLiquidity(tokenAmount);
 
+        assertEq(exchange.balanceOf(address(this)), lpTokensRecieved);
         assertEq(token.balanceOf(address(this)), initialSupply - tokenAmount);
         assertEq(exchange.getReserve(), tokenAmount);
+    }
+
+    function testAddLiquidtyWithReserves() public {
+        token.approve(address(exchange), 300);
+        uint256 lpTokensRecieved = exchange.addLiquidity{value: 100}(200);
+
+        lpTokensRecieved += exchange.addLiquidity{value: 50}(200);
+
+        assertEq(exchange.balanceOf(address(this)), lpTokensRecieved);
+
+        assertEq(address(exchange).balance, 150);
+        assertEq(exchange.getReserve(), 300);
     }
 
     function testFailGetTokenAmount() public {
