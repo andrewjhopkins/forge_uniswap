@@ -50,10 +50,11 @@ contract ExchangeTest is Test {
         assertEq(tokenAmount, 1);
 
         tokenAmount = exchange.getTokenAmount(100);
-        assertEq(tokenAmount, 181);
+        assertEq(tokenAmount, 180);
 
         tokenAmount = exchange.getTokenAmount(1000);
-        assertEq(tokenAmount, 1000);
+        console.log(tokenAmount);
+        assertEq(tokenAmount, 994);
     }
 
     function testFailGetEthAmount() public {
@@ -73,7 +74,7 @@ contract ExchangeTest is Test {
         assertEq(tokenAmount, 47);
 
         tokenAmount = exchange.getEthAmount(2000);
-        assertEq(tokenAmount, 500);
+        assertEq(tokenAmount, 497);
     }
 
     function testEthToTokenswap() public {

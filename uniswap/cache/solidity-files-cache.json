@@ -12,7 +12,7 @@
   },
   "files": {
     "lib/forge-std/lib/ds-test/src/test.sol": {
-      "lastModificationDate": 1674854422341,
+      "lastModificationDate": 1674910510823,
       "contentHash": "962996f0e05d5218857a538a62d7c47e",
       "sourceName": "lib/forge-std/lib/ds-test/src/test.sol",
       "solcConfig": {
@@ -47,12 +47,12 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "DSTest": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "test.sol/DSTest.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "test.sol/DSTest.json"
         }
       }
     },
     "lib/forge-std/src/Base.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510491,
       "contentHash": "8f04bbbb2c16f79e14fdc321695a8ec2",
       "sourceName": "lib/forge-std/src/Base.sol",
       "solcConfig": {
@@ -90,18 +90,18 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "CommonBase": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Base.sol/CommonBase.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Base.sol/CommonBase.json"
         },
         "ScriptBase": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Base.sol/ScriptBase.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Base.sol/ScriptBase.json"
         },
         "TestBase": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Base.sol/TestBase.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Base.sol/TestBase.json"
         }
       }
     },
     "lib/forge-std/src/StdAssertions.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510491,
       "contentHash": "5bc6a90903a666d831370fa46838ed73",
       "sourceName": "lib/forge-std/src/StdAssertions.sol",
       "solcConfig": {
@@ -139,12 +139,12 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdAssertions": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdAssertions.sol/StdAssertions.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdAssertions.sol/StdAssertions.json"
         }
       }
     },
     "lib/forge-std/src/StdChains.sol": {
-      "lastModificationDate": 1674854422352,
+      "lastModificationDate": 1674910510492,
       "contentHash": "3ebb3d0e5e74705c4214d3d2255af02d",
       "sourceName": "lib/forge-std/src/StdChains.sol",
       "solcConfig": {
@@ -181,12 +181,12 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdChains": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdChains.sol/StdChains.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdChains.sol/StdChains.json"
         }
       }
     },
     "lib/forge-std/src/StdCheats.sol": {
-      "lastModificationDate": 1674854422352,
+      "lastModificationDate": 1674910510492,
       "contentHash": "ed0130ab99d0859cf7da2949203a4679",
       "sourceName": "lib/forge-std/src/StdCheats.sol",
       "solcConfig": {
@@ -224,15 +224,15 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdCheats": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdCheats.sol/StdCheats.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdCheats.sol/StdCheats.json"
         },
         "StdCheatsSafe": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdCheats.sol/StdCheatsSafe.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdCheats.sol/StdCheatsSafe.json"
         }
       }
     },
     "lib/forge-std/src/StdError.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510492,
       "contentHash": "64c896e1276a291776e5ea5aecb3870a",
       "sourceName": "lib/forge-std/src/StdError.sol",
       "solcConfig": {
@@ -267,12 +267,12 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "stdError": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdError.sol/stdError.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdError.sol/stdError.json"
         }
       }
     },
     "lib/forge-std/src/StdJson.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510492,
       "contentHash": "016de2d7ee55960094cc97ec792025bb",
       "sourceName": "lib/forge-std/src/StdJson.sol",
       "solcConfig": {
@@ -309,12 +309,12 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "stdJson": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdJson.sol/stdJson.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdJson.sol/stdJson.json"
         }
       }
     },
     "lib/forge-std/src/StdMath.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510492,
       "contentHash": "9da8f453eba6bb98f3d75bc6822bfb29",
       "sourceName": "lib/forge-std/src/StdMath.sol",
       "solcConfig": {
@@ -349,12 +349,12 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "stdMath": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdMath.sol/stdMath.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdMath.sol/stdMath.json"
         }
       }
     },
     "lib/forge-std/src/StdStorage.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510492,
       "contentHash": "3cb9868082df39a53927db09dbc21f23",
       "sourceName": "lib/forge-std/src/StdStorage.sol",
       "solcConfig": {
@@ -391,15 +391,15 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "stdStorage": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdStorage.sol/stdStorage.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdStorage.sol/stdStorage.json"
         },
         "stdStorageSafe": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdStorage.sol/stdStorageSafe.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdStorage.sol/stdStorageSafe.json"
         }
       }
     },
     "lib/forge-std/src/StdUtils.sol": {
-      "lastModificationDate": 1674854422352,
+      "lastModificationDate": 1674910510492,
       "contentHash": "7e77cc909faa708c1511911ca74c497e",
       "sourceName": "lib/forge-std/src/StdUtils.sol",
       "solcConfig": {
@@ -437,12 +437,12 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdUtils": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdUtils.sol/StdUtils.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StdUtils.sol/StdUtils.json"
         }
       }
     },
     "lib/forge-std/src/Test.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510492,
       "contentHash": "9ca73393dbc2f8cde2aa628f8d05c5d5",
       "sourceName": "lib/forge-std/src/Test.sol",
       "solcConfig": {
@@ -492,12 +492,12 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "Test": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Test.sol/Test.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Test.sol/Test.json"
         }
       }
     },
     "lib/forge-std/src/Vm.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510492,
       "contentHash": "86d01713430fa0877970a6ed8f99dc78",
       "sourceName": "lib/forge-std/src/Vm.sol",
       "solcConfig": {
@@ -532,15 +532,15 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "Vm": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Vm.sol/Vm.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Vm.sol/Vm.json"
         },
         "VmSafe": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Vm.sol/VmSafe.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Vm.sol/VmSafe.json"
         }
       }
     },
     "lib/forge-std/src/console.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510492,
       "contentHash": "100b8a33b917da1147740d7ab8b0ded3",
       "sourceName": "lib/forge-std/src/console.sol",
       "solcConfig": {
@@ -575,12 +575,12 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "console.sol/console.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "console.sol/console.json"
         }
       }
     },
     "lib/forge-std/src/console2.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510493,
       "contentHash": "2096b4e5f252c5df9909cccbe3d2da2e",
       "sourceName": "lib/forge-std/src/console2.sol",
       "solcConfig": {
@@ -615,12 +615,12 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console2": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "console2.sol/console2.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "console2.sol/console2.json"
         }
       }
     },
     "lib/forge-std/src/interfaces/IMulticall3.sol": {
-      "lastModificationDate": 1674854421940,
+      "lastModificationDate": 1674910510493,
       "contentHash": "7b131ca1ca32ef6378b7b9ad5488b901",
       "sourceName": "lib/forge-std/src/interfaces/IMulticall3.sol",
       "solcConfig": {
@@ -655,12 +655,12 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "IMulticall3": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "IMulticall3.sol/IMulticall3.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "IMulticall3.sol/IMulticall3.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1674854132517,
+      "lastModificationDate": 1674910510869,
       "contentHash": "834a0dde221759af42b030253315b086",
       "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
@@ -699,12 +699,12 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "ERC20": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "ERC20.sol/ERC20.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ERC20.sol/ERC20.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1674854132517,
+      "lastModificationDate": 1674910510870,
       "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
       "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
@@ -739,12 +739,12 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "IERC20": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "IERC20.sol/IERC20.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "IERC20.sol/IERC20.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1674854131293,
+      "lastModificationDate": 1674910510870,
       "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
       "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
@@ -781,12 +781,12 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "IERC20Metadata": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "IERC20Metadata.sol/IERC20Metadata.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "IERC20Metadata.sol/IERC20Metadata.json"
         }
       }
     },
     "lib/openzeppelin-contracts/contracts/utils/Context.sol": {
-      "lastModificationDate": 1674854131293,
+      "lastModificationDate": 1674910510874,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
       "solcConfig": {
@@ -821,13 +821,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "Context": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Context.sol/Context.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Context.sol/Context.json"
         }
       }
     },
     "src/Exchange.sol": {
-      "lastModificationDate": 1674854198080,
-      "contentHash": "cba68a93f3fcb4f655ba8a1d15a4f0e6",
+      "lastModificationDate": 1674914418007,
+      "contentHash": "8522305555cd5bd9d66c121775508c01",
       "sourceName": "src/Exchange.sol",
       "solcConfig": {
         "settings": {
@@ -858,17 +858,72 @@
         }
       },
       "imports": [
-        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol"
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
       ],
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "Exchange": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Exchange.sol/Exchange.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Exchange.sol/Exchange.json"
+        },
+        "IExchange": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Exchange.sol/IExchange.json"
+        },
+        "IFactory": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Exchange.sol/IFactory.json"
+        }
+      }
+    },
+    "src/Factory.sol": {
+      "lastModificationDate": 1674914444585,
+      "contentHash": "2a65e2846567267d99f8e9875f5d3526",
+      "sourceName": "src/Factory.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "src/Exchange.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Factory": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Factory.sol/Factory.json"
         }
       }
     },
     "src/Token.sol": {
-      "lastModificationDate": 1674854210929,
+      "lastModificationDate": 1674910457549,
       "contentHash": "0436c6c3a95b55b808651e3ae58acdb6",
       "sourceName": "src/Token.sol",
       "solcConfig": {
@@ -908,13 +963,13 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "Token": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Token.sol/Token.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Token.sol/Token.json"
         }
       }
     },
     "test/Exchange.t.sol": {
-      "lastModificationDate": 1674854242909,
-      "contentHash": "7da0ccb8cf9c0837ce04044b9d14875c",
+      "lastModificationDate": 1674911772161,
+      "contentHash": "102675901d2b172dbf2d5b55d9e2cb74",
       "sourceName": "test/Exchange.t.sol",
       "solcConfig": {
         "settings": {
@@ -970,12 +1025,12 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "ExchangeTest": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Exchange.t.sol/ExchangeTest.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Exchange.t.sol/ExchangeTest.json"
         }
       }
     },
     "test/Token.t.sol": {
-      "lastModificationDate": 1674854254089,
+      "lastModificationDate": 1674910457549,
       "contentHash": "4fa4fcb8752948b524ef9c4e0e90d9ad",
       "sourceName": "test/Token.t.sol",
       "solcConfig": {
@@ -1031,7 +1086,7 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "TokeneTest": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Token.t.sol/TokeneTest.json"
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Token.t.sol/TokeneTest.json"
         }
       }
     }
